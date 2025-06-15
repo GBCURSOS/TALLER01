@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./PRACTICA/CSS/t01.css">
+    <link rel="shortcut icon" href="../../RECURSOS/FOTOS/skill.png" type="image/x-icon">
+    <title>Taller01</title>
+</head>
+<body>
+    <header>
+        <h1>FSB1_152 TALLER 01</h1>
+        <h2>Taller sobre HTML y CSS & GIT</p>
+        <h5>La disciplina, tarde ó temprano, vencerá a la inteligencia</h6>
+        <hr>
+    </header>
+
+    <main>
+        <section class="condiciones">
+            <h1>CONDICIONES DE ENTREGA</h1>
+            <ol>
+                <li>Cada ejercicio debe estar resuelto en un archivo .html independiente y el .css correspondiente debe estar en un archivo aparte.</li>
+                <li>Debe quedar en un repositorio con el nombre F152T01 y desplegar la página web correspondiente</li>
+                <li>De este taller se creara una página, por tanto debe tener una sección de footer, en el cual se indique el nombre del estudiante y su identificación correspondiente</li>
+                <li>La página index.html debe estar conformada por un índice, con enlaces a cada uno de los archivos .html correspondientes.</li>
+                <li>Debe mandar el enlace de la página por el whatsapp del grupo.</li>
+            </ol>
+        </section>
+        <hr>
+        <section class="ejercicios">
+            <h1>EJERCICIOS</h1>
+            <ol type="A">
+                <li id="A">
+                    <h2>Ejercicio 00</h2>
+                    <p>Cree la estructura de carpetas correspondiente donde se guardaran los archivos solución a los diferentes ejercicios.</p>
+                    <p>Cree una carpeta nueva para éste taller. En este caso se llama FSB15201:</p>
+                    <figure>
+                        <img src="../../RECURSOS/FOTOS/01CarpetaTaller.png" alt="carpeta taller01">
+                        <figcaption>Carpeta para Taller 01</figcaption>
+                    </figure>
+                    <p>Cree la siguiente estructura de carpetas:</p>
+                    <figure>
+                        <img src="../../RECURSOS/FOTOS/02EstructuraCarpetas.png" alt="">
+                    </figure>
+                    <ol>
+                        <li>En la carpeta CSS, deben quedar los archivos <strong>.css</strong> que se van a crear.</li>
+                        <li>En la carpeta HTML, deben quedar los archivos <strong>.html</strong> que se van a crear.</li>
+                        <li>En la carpeta FOTOS, deben quedar las <strong>fotos</strong> que se utilicen.</li>
+                    </ol>
+                </li>
+                <li>
+                    <h2>Ejercicio 01</h2>
+                    <p>Cree una página web con tres párrafos, cada uno de 150 palabras, con las siguientes condiciones:
+                        <ol>
+                            <li>Cada párrafo debe tener un <strong>id</strong> con la identificación: uno, dos y tres, respectivamente.</li>
+                            <li>Cada párrafo debe tener un color diferente para el texto.</li>
+                        </ol>
+                    </p>
+                </li>
+                <li id="C">
+                    <h2>Ejercicio 02</h2>
+                    <p>Cree una página web con tres fotos con título para cada una de las fotos. Las fotos las puede descargar de <a href="https://undraw.co/">undraw.co</a>. Recuerde que las fotos deben ir en la carpeta RECURSOS > FOTOS.
+                    </p>
+                </li>
+                <li id="D">
+                    <h2>Ejercicio 03</h2>
+                    <p>Cree una página con la siguiente estructura:</p>
+                    <pre><code>
+                        &lt;header&gt;
+                            &lt;h1&gt;Encabezado h1 en el Header&lt;/h1&gt;
+                        &lt;/header&gt;
+                        &lt;main&gt;
+                            &lt;h1&gt;Encabezado h1 en el main&lt;/h1&gt;
+                            &lt;section&gt;
+                                &lt;h2&gt;Encabezado en la sección Uno&lt;/h2&gt;
+                                &lt;div&gt;
+                                &lt;p&gt;División en la sección Uno&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/section&gt;
+                            &lt;section&gt;
+                                &lt;h2&gt;Encabezado en la sección Dos&lt;/h2&gt;
+                                &lt;div&gt;
+                                &lt;p&gt;División en la sección Dos&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/section&gt;
+                            &lt;section&gt;
+                                &lt;h2&gt;Encabezado en la sección Tres&lt;/h2&gt;
+                                &lt;div&gt;
+                                &lt;p&gt;División en la sección TRes&lt;/p&gt;
+                                &lt;/div&gt;
+                            &lt;/section&gt;
+                        &lt;/main&gt;
+                    </code></pre>
+                    <ol>
+                        <li>Cada elemento header, main, section y div, deben tener un color de fondo diferente. El mismo color para el correspondiente elemento.</li>
+                        <li>Los encabezados deben tener el caracter de color rojo.</li>
+                    </ol>
+                </li>
+                <li>
+                    <h2>Ejercicio 04</h2>
+                    <p>Realice una página con una tabla de verduras, donde las columnas sean nombre, color y beneficio. Deben haber como mínimo diez ítems</p>
+                </li>
+            </ol>
+        </section>
+        <hr>
+        <section class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Atajo</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>etiqueta.nombre_de_la_class + Tab</td>
+                        <td>Crear un elemento con clase (Emmet)</td>
+                    </tr>
+                    <tr>
+                        <td>etiqueta#nombre_del_id + Tab</td>
+                        <td>Crear un elemento con id (Emmet)</td>
+                    </tr>
+                    <tr>
+                        <td>etiqueta.nombre_de_la_class#nombre_del_id + Tab</td>
+                        <td>Crear un elemento con class e id (Emmet)</td>
+                    </tr>
+                    <tr>
+                        <td>etiqueta.nombre_de_la_class.nombre_de_la_class + Tab</td>
+                        <td>Crear un elemento con dos class (Emmet)</td>
+                    </tr>
+                    <tr>
+                        <td>Ctrl + Shift + K</td>
+                        <td>Borrar una línea</td>
+                    </tr>
+                    <tr>
+                        <td>Alt + ↑ / ↓</td>
+                        <td>Mover una línea</td>
+                    </tr>
+                    <tr>
+                        <td>Shift + Alt + ↑ / ↓</td>
+                        <td>Copiar una línea</td>
+                    </tr>
+                    <tr>
+                        <td>Shift + Alt + F</td>
+                        <td>Organizar el código (formatear la indentación)</td>
+                    </tr>
+                    <tr>
+                        <td>Ctrl + A</td>
+                        <td>Seleccionar todo el código</td>
+                    </tr>
+                    <tr>
+                        <td>Ctrl + K + Cttrl C</td>
+                        <td>Comentar ó descomentar una línea</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+    </main>
+    <hr>
+    <footer class="piePagina">
+        <p>
+            Curso FSB1_152.Taller HTML + CSS + GIT
+            <br>
+            Ramiro Nogales.
+        </p>
+        <ul>
+            <li>repositorio: <a href="https://github.com/RNOGALESGB/TALLER01.git">Github Repositorio</a></li>
+            <li>solucionario: <a href="./PRACTICA/HTML/t01s.html">Solucionario</a></li>
+        </ul>
+    </footer>
+    <hr>
+</body>
+</html>
